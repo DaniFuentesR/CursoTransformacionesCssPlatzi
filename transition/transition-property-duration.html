@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: yellow;
+            width: 400px;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+
+        }
+
+        .container:hover .box{
+            transform: scale(1.2);
+        }
+
+        .box{
+            background-color: tomato;
+            width: 100px;
+            height: 100px;
+        }
+
+        .box1{
+            background-color: yellowgreen;
+            transition: transform 0.5s;
+        }
+
+        .box2{
+            background-color: aquamarine;
+            transition: transform 1s;
+        }
+
+        .box3{
+            background-color: sienna;
+            transition: transform 1.5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+</body>
+</html>

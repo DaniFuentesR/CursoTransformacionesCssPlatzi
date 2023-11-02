@@ -1,0 +1,17 @@
+a :link{
+    color: blue;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    background-color: aqua;
+
+}
+
+p:not(.maravillas){
+    color: chartreuse;
+}
+
